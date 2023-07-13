@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Content</title>
+
+    <style>
+        body{
+            margin-bottom: 500px;
+        }
+        .container{
+            border: 2px solid black;
+            padding: 16px;
+            width: 300px;
+            margin-bottom: 16px;
+            height: 300px;
+            background-color: rgba(255, 0, 0, .5);
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content .item{
+            width: fit-content;
+        }
+        
+
+        .min-content .item{
+            width: min-content;
+        }
+
+        .max-content .item{
+            width: max-content;
+        }
+
+        .overflow-hidden{
+            overflow: hidden;
+        }
+
+        .overflow-scroll{
+            overflow: scroll;
+        }
+
+        .overflow-y-auto{
+            overflow: auto;
+        }
+
+        .overflow-x-hidden{
+            overflow: hidden;
+        }
+
+        .overflow-hidden{
+            overflow-x: hidden;
+        }
+
+        .overflow-x-scroll{
+            overflow-x: scroll;
+        }
+
+        .overflow-visible{
+            overflow: visible;
+        }        
+
+    </style>
+</head>
+<body>
+    <div class="container fit-content overflow-hidden">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, necessitatibus?</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga neque omnis totam dicta nulla fugiat a hic. Molestias maiores eos consectetur magni amet illum asperiores.</div>
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex molestias magnam doloribus ipsum saepe natus animi totam nam architecto labore esse optio doloremque rerum, molestiae nesciunt! Hic veritatis quia maiores, tenetur voluptates ipsum tempora repellat odio itaque provident repudiandae perferendis nostrum eaque ducimus? Alias recusandae exercitationem quas dolore assumenda, magni veniam iusto odio, nemo quis placeat. Accusamus, cumque ea fugiat ad, velit a magnam earum veniam quae non fuga optio delectus officiis, doloremque exercitationem aliquam?</div>
+    </div>
+
+    <div class="container min-content overflow-auto">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, necessitatibus?</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga neque omnis totam dicta nulla fugiat a hic. Molestias maiores eos consectetur magni amet illum asperiores.</div>
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex molestias magnam doloribus ipsum saepe natus animi totam nam architecto labore esse optio doloremque rerum, molestiae nesciunt! Hic veritatis quia maiores, tenetur voluptates ipsum tempora repellat odio itaque provident repudiandae perferendis nostrum eaque ducimus? Alias recusandae exercitationem quas dolore assumenda, magni veniam iusto odio, nemo quis placeat. Accusamus, cumque ea fugiat ad, velit a magnam earum veniam quae non fuga optio delectus officiis, doloremque exercitationem aliquam?</div>
+    </div>
+
+    <div class="container max-content overflow-auto">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, necessitatibus?</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga neque omnis totam dicta nulla fugiat a hic. Molestias maiores eos consectetur magni amet illum asperiores.</div>
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex molestias magnam doloribus ipsum saepe natus animi totam nam architecto labore esse optio doloremque rerum, molestiae nesciunt! Hic veritatis quia maiores, tenetur voluptates ipsum tempora repellat odio itaque provident repudiandae perferendis nostrum eaque ducimus? Alias recusandae exercitationem quas dolore assumenda, magni veniam iusto odio, nemo quis placeat. Accusamus, cumque ea fugiat ad, velit a magnam earum veniam quae non fuga optio delectus officiis, doloremque exercitationem aliquam?</div>
+    </div>
+</body>
+</html>
