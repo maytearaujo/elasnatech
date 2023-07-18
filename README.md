@@ -13,5 +13,5 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
     <li><a href="https://maytearaujo.github.io/elasnatech/HTML/projeto_contatos_II" target="_blank">Lista de Contatos II</a></li>
     <li><a href="https://maytearaujo.github.io/elasnatech/HTML/projeto-price-cards" target="_blank">Plano de Internet</a></li>    
     <li><a href="https://maytearaujo.github.io/elasnatech/HTML/ProjetoCSS-flexbox-desafio" target="_blank">Desafio FlexBox</a></li> 
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/desafioGil/desafio02" target="_blank">Desafio FlexBox</a></li>   
+    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/desafioGil/desafio02" target="_blank">Desafio 02 - Rainhas Africanas</a></li>   
 </ul>

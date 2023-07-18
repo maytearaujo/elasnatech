@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline</title>
+    <style>
+        .div{
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            border: 4px solid red;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+
+        .border:hover{
+            border: 10px solid pink;
+        }
+
+        .outline:hover{
+            outline-width: 10px
+        }
+        
+        .outline1:hover{
+            outline: 10px solid pink;
+        }
+        
+        .outline2:hover{
+            outline-offset: 16px;
+            outline-style: dashed;
+            outline-width: 10px;
+            outline: 10px solid pink;
+        }
+    </style>
+</head>
+<body>
+    <div class=" div border">Border</div>
+    
+    <div class="div outline1">Outline</div>
+    
+    <div class="div outline2">Outline</div>
+
+</body>
+</html>

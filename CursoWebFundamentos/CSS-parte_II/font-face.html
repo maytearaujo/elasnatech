@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font-face</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+        @font-face{
+            font-family: nadia;
+            src: 
+            local("Nadia Serif"),
+            local("Nadia-Serif"),
+            url(fonts/nadia/nadia-serif.ttf) format("truetype"), url(fonts/nadia/nadia-serif.woff) format("woff"), url(fonts/nadia/nadia-serif.svg) format("svg");
+
+            font-family: 'alex_brushregular';
+            src: url(fonts/alex-brush/alexbrush-regular-webfont.woff2) format('woff2'),
+            url(fonts/alex-brush/alexbrush-regular-webfont.woff) format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        html{
+            font-size: 40px;
+        }
+        h1{
+            font-family: alex_brushregular, nadia, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p{
+            font-family: 'Lumanosimo', cursive;
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Font Face</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sit obcaecati doloremque sunt quas modi exercitationem. Temporibus rerum dolorem modi.</p>
+</body>
+</html>
