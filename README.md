@@ -5,13 +5,14 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
 
 ## Exercícios
 <ul>
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/desafioCurriculo/desafioCurriculo.html" target="_blank">Desafio Curriculo</a></li>
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/desafioCurriculo/desafioCurriculo_menu.html" target="_blank">Desafio Curriculo com menu</a></li>
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/desafioGil/desafio01/desafio01.html" target="_blank">Desafio 01</a></li>
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/ProjetoCSS-inicio" target="_blank">Desafio CSS</a></li>
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/projeto_contatos" target="_blank">Lista de Contatos I</a></li>
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/projeto_contatos_II" target="_blank">Lista de Contatos II</a></li>
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/projeto-price-cards" target="_blank">Plano de Internet</a></li>    
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/ProjetoCSS-flexbox-desafio" target="_blank">Desafio FlexBox</a></li> 
-    <li><a href="https://maytearaujo.github.io/elasnatech/HTML/desafioGil/desafio02" target="_blank">Desafio 02 - Rainhas Africanas</a></li>   
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioCurriculo/desafioCurriculo.html" target="_blank">Desafio Curriculo</a></li>
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioCurriculo/desafioCurriculo_menu.html" target="_blank">Desafio Curriculo com menu</a></li>
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio01/desafio01.html" target="_blank">Desafio 01</a></li>
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/ProjetoCSS-inicio" target="_blank">Desafio CSS</a></li>
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/projeto_contatos" target="_blank">Lista de Contatos I</a></li>
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/projeto_contatos_II" target="_blank">Lista de Contatos II</a></li>
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/projeto-price-cards" target="_blank">Plano de Internet</a></li>    
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/ProjetoCSS-flexbox-desafio" target="_blank">Desafio FlexBox</a></li> 
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio02" target="_blank">Desafio 02 - Rainhas Africanas</a></li>   
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/projetoModaOra" target="_blank">Projeto Moda Ora</a></li>   
 </ul>
