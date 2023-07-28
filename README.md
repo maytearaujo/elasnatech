@@ -16,4 +16,9 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
     <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio02" target="_blank">Desafio 02 - Rainhas Africanas</a></li>   
     <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/projetoModaOra" target="_blank">Projeto Moda Ora</a></li>   
     <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/ProjetoAprenser" target="_blank">Projeto Aprenser</a></li>   
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/Formulario/login.html" target="_blank">Formulário de Login</a></li>   
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/Formulario/contato.html" target="_blank">Formulário de Contato</a></li>   
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/Formulario/busca.html" target="_blank">Formulário de Busca </a></li>   
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/Formulario/login_cadastro" target="_blank">Formulário de Login | Cadastro </a></li>   
+    <li><a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio03" target="_blank">Desafio 03 - Frutas Vermelhas</a></li>   
 </ul>
