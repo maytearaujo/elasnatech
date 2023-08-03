@@ -1,0 +1,47 @@
+p:first-child{
+    color: red;
+}
+
+p:last-child{
+    color: orange;
+}
+
+p:nth-child(3){
+    background-color: pink;
+}
+
+p:first-of-type{
+    background-color: green;
+}
+
+p:last-of-type{
+    background-color: violet;
+}
+
+p:nth-of-type(2){
+    text-decoration:underline;
+}
+
+.item li:nth-child(odd){
+    background-color: aquamarine;
+}
+
+.item li:nth-child(even){
+    background-color: rgb(255, 240, 127);
+}
+
+.item li:nth-child(2n){
+    color: red;
+}
+
+
+/* 1, 4, 7, 10 */
+.desafio li:nth-child(3n-2){
+    background-color: blueviolet;
+}
+
+
+p:nth-of-type(3n - 2){
+    text-align: right;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elemento</title>
+
+    <style>
+        p::first-letter{
+            font-size: 4em;
+            float: left;
+            margin-right: .2em;
+            line-height: 3;
+            color: rebeccapurple;
+        }
+
+        p::first-line{
+            color: red;
+        }
+
+        ::selection{
+            background-color: orange;
+        }
+
+        p::first-letter::selection{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quasi deserunt libero molestiae, harum aspernatur voluptates! Adipisci consequuntur, vel fugit deleniti aliquam, voluptatem eum corrupti ab illo architecto sint. Unde!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quasi deserunt libero molestiae, harum aspernatur voluptates! Adipisci consequuntur, vel fugit deleniti aliquam, voluptatem eum corrupti ab illo architecto sint. Unde!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quasi deserunt libero molestiae, harum aspernatur voluptates! Adipisci consequuntur, vel fugit deleniti aliquam, voluptatem eum corrupti ab illo architecto sint. Unde!</p>
+</body>
+</html>

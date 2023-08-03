@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+
+    <style>
+
+        body{
+            margin-bottom: 100vh;
+        }
+        div{
+            outline: 1px solid #888;
+            width: 200px;
+            margin: .5em auto;
+        }
+
+        p{
+            width: 50%;
+        }
+
+        .destaque{
+            background-color: yellow;
+        }
+
+        .div1 .destaque{
+            transform: translate(150%);
+        }
+        .div2 .destaque{
+            position: relative;
+            top: -50px;
+            left: 50px;
+        }
+
+        .div3 .destaque{
+            transform: rotate(45deg);
+        }
+
+        .div4 .destaque{
+            transform: scale(1.5);
+        }
+
+        .div5 .destaque{
+            transform: skewX(25deg);
+        }
+
+        .div6 .destaque{
+            transform: translate(200px) rotate(45deg);
+        }
+
+        .div7 .destaque{
+            transform: rotate(45deg) translate(200px);
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+    </div>
+
+    <div class="div2">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+    </div>
+
+    <div class="div3">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+    </div>
+
+    <div class="div4">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+    </div>
+
+    <div class="div5">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+    </div>
+
+    <div class="div6">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+    </div>
+
+    <div class="div7">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, consequuntur!</p>
+    </div>
+
+</body>
+</html>
