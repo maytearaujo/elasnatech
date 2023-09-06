@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Pessoais</title>
+
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5em;
+            background-color: #a789c3;
+            text-align: center;
+        }
+        
+        button{
+            font-size: 2rem;
+            border-radius: 3px;
+            width: 80px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lógica de Programação com JavaScript</h1>
+    <h2>ElasNaTech 2023</h2>
+    <h3>By Maytê Araújo</h3>
+
+    <div id="output"></div>
+    <script>
+        var dadosPessoais = [
+            {"nome": "ana", "email":"ana@email.com"},
+            {"nome": "maria", "email":"maria@email.com"},
+            {"nome": "gabriela", "email":"gabriela@email.com"}
+        ];
+
+        var msg = '';
+
+        for (var i = 0; i < dadosPessoais.length; i++){
+            console.log(dadosPessoais.nome);
+            msg += "<h3>Nome: " + dadosPessoais[i].nome +' </h3';
+            msg += "<p>e-mail: " + dadosPessoais[i].email + '</p>';
+        }
+
+        document.querySelector('#output').innerHTML = msg;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Void</title>
+</head>
+
+<body>
+    <h1>Lógica de Programação com JavaScript</h1>
+    <h2>ElasNaTech 2023</h2>
+    <h3>By Maytê Araújo</h3>
+
+    <button onclick=mostrarTabuada()>Criar Tabuada</button>
+    <button onclick=limparTabuada()>Limpar Tabuada</button>
+
+    <div id="output"></div>
+
+    <script>
+
+        function mostrarTabuada() {
+            limparTabuada(); 
+            var n = prompt('Digite um número');
+
+            n = parseFloat(n);
+            var i = 1;
+            while (i < 1000) {
+                mensagem += n + ' x ' + i + ' = ' + (n * i) + '<br>';
+                i++;
+            }
+
+            output.innerHTML = mensagem;
+        }
+
+        function limparTabuada(){
+            mensagem = '';
+            output.innerHTML = mensagem;
+        }
+
+        var output = document.querySelector('#output');
+        console.log(output);
+
+        var mensagem = '';
+
+
+
+
+    </script>
+</body>
+
+</html>

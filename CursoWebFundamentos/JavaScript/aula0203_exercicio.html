@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Lógica de programação com Javascript</h1>
+        
+        <script>
+            var num1, num2, mod, exponencial;
+            
+            //pedir para o usuario digitar um numero
+            num1 = prompt('Digite o 1º número');
+                                                            
+            //converter em numero inteiro
+            num1 = parseInt(num1);
+
+            //pedir para o usuario digitar outro numero
+             num2 = prompt('Digite o 2º número');
+             
+            //converter em numero inteiro
+             num2 = parseInt(num2);
+            /*
+            mostrar num alert o seguinte texto
+            o resto da divisão de (n1) por (n2) é: (resultado); 
+            */
+           mod = num1 % num2;
+            alert('O resto da divisão de ' + num1 + ' por ' + num2 + ' é ' + mod);
+            
+            /*
+            mostrar num alert o seguinte texto
+            o numero (n1) elevado a (n2) é: (resultado); 
+            */
+           exponencial = num1 ** num2;
+           alert('O número ' + num1 + ' elevado a ' + num2 + ' é: ' + exponencial);
+                 
+            
+            
+        </script>
+    </body>
+</html>

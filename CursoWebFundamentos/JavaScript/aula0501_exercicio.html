@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Área</title>
+
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5em;
+            background-color: #a789c3;
+            text-align: center;
+        }
+
+        button {
+            font-size: 2rem;
+            border-radius: 3px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lógica de Programação com JavaScript</h1>
+    <h2>ElasNaTech 2023</h2>
+    <h3>By Maytê Araújo</h3>
+
+    <button onclick="mostrarAreaAlert()">Calcular área em um alert</button>
+
+    <button onclick="mostrarAreaOutput()">Calcular área em um output</button>
+
+    <div id="output"></div>
+    <script>
+
+        function mostrarAreaAlert() {
+                    var largura = prompt('Digite a largura');
+        largura = parseFloat(largura);
+
+        var altura = prompt('Digite a altura');
+        altura = parseFloat(altura);
+
+        try{
+            var area = calcularArea(largura, altura);
+        }catch(e){
+            area = e;
+        }
+            alert('A área total é: '+ area);
+        }
+
+        function mostrarAreaOutput() {
+                    var largura = prompt('Digite a largura');
+        largura = parseFloat(largura);
+
+        var altura = prompt('Digite a altura');
+        altura = parseFloat(altura);
+
+        try{
+            var area = calcularArea(largura, altura);
+        }catch(e){
+            area = e;
+        }
+
+
+            document.querySelector('#output').innerHTML = 'A área total é: '+ area;
+        }
+
+        mostrarAreaAlert();
+
+        function calcularArea(l, a) {
+            if ( l === undefined || a === undefined){
+                throw new Error('calcular Area precisa receber dois números');
+            }
+
+            if ( isNaN(l) || isNaN(a) ){
+                throw new Error('Apenas números');
+            }
+            
+            return l * a;
+        }
+
+    </script>
+</body>
+
+</html>

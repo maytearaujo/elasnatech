@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style>
+        .exemplo-cor{
+            background: #f9f9f9;
+            border: solid 1px #ddd;
+            margin-top: 10px;
+        }
+
+        .dark{
+            background: #676767;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div style="border: solid 1px;height: 400px;" class="container">
+            <div class="row">
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div>
+                <div class="col exemplo-cor">Coluna</div> 
+            </div>
+            
+            <div class="row">
+                <div class="col-6 exemplo-cor">Coluna</div> 
+                <div class="col-4 exemplo-cor">Coluna</div> 
+                <div class="col-2 exemplo-cor">Coluna</div> 
+            </div>
+            
+            <div class="row">
+                <div class="col-6 col-sm-4 exemplo-cor dark">Coluna</div> 
+                <div class="col-6 col-sm-4 exemplo-cor dark">Coluna</div> 
+                <div class="col-6 col-sm-4 exemplo-cor dark">Coluna</div> 
+            </div>
+            
+            <div class="row" style="min-height: 250px;">
+                <div class="col-4 align-self-start exemplo-cor dark">Coluna</div> 
+                <div class="col-4 align-self-center exemplo-cor dark">Coluna</div> 
+                <div class="col-4 align-self-end exemplo-cor dark">Coluna</div> 
+            </div>
+            
+            <div class="row justify-content-center " style="min-height: 250px; border: solid blue;">
+                <div class="col-4 align-self-start exemplo-cor dark">Coluna</div> 
+                <div class="col-4 align-self-center exemplo-cor dark">Coluna</div> 
+                <div class="col-4 align-self-end exemplo-cor dark">Coluna</div> 
+            </div>
+        </div>
+    </section>
+</body>  
+</html>

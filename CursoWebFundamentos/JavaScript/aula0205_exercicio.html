@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprovado | Reprovado</title>
+
+
+</head>
+
+<body>
+    <h1>Lógica de Programação com JavaScript</h1>
+    <h2>ElasNaTech 2023</h2>
+    <h3>By Maytê Araújo</h3>
+
+
+</body>
+<script>
+    var n1, n2, sorte;
+
+    n1 = parseInt(prompt('Digite o 1º número'));
+    n2 = parseInt(prompt('Digite o 2º número'));
+
+    if (n1 === n2) {
+        alert('Empate')
+    } else {
+        sorte = parseInt(Math.random()*2);
+        console.log(sorte);
+
+        if( sorte === 0 ){
+            if ( n1 < n2){
+                alert('Parabéns o jogador nº 1 foi o ganhador');
+
+            }else{
+                alert('Parabéns o jogador nº 2 foi o ganhador');
+            }
+        }else{
+            if ( n1 > n2){
+                alert('Parabéns o jogador nº 1 foi o ganhador');
+
+            }else{
+                alert('Parabéns o jogador nº 2 foi o ganhador');
+            }
+
+        }
+    }
+</script>
+
+</html>

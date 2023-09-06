@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada While</title>
+</head>
+<body>
+    <h1>Lógica de Programação com JavaScript</h1>
+    <h2>ElasNaTech 2023</h2>
+    <h3>By Maytê Araújo</h3>
+</body>
+<script>
+    var n, indice=1;
+
+    n = parseInt(prompt('Digite um número'));
+
+    while( indice <= 1000){
+        document.write(n +' x '+ indice +' = '+(n * indice)+'<br>');
+        indice++;
+        if (indice == 11 || indice == 21 || indice == 31 || indice == 41){
+            document.write('<hr>')
+        }
+    }
+</script>
+</html>
