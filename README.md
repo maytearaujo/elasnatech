@@ -3,6 +3,28 @@
 
 ElasNaTech é um Programa de formação em programação web para mulheres realizado pela Junior Achievement Brasil, com o patrocínio da CCR e apoio da Skillsbuild da IBM .
 
+## Desafios [ElasNaTech]
+<ul>
+    <li>
+        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio01/index.html" target="_blank">Desafio 01 - O Inicio</a>
+    </li>    
+    <li>
+        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio02/index.html" target="_blank">Desafio 02 - Rainhas Africanas</a>
+    </li>   
+    <li>
+        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio03/index.html" target="_blank">Desafio 03 - Frutas Vermelhas</a>
+    </li>   
+    <li>
+        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio04/index.html" target="_blank">Desafio 04 - Responsividade</a>
+    </li>   
+    <li>
+        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio05/index.html" target="_blank">Desafio 05 - Pantera Negra</a>
+    </li>   
+    <li>
+        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio06/index.html" target="_blank">Desafio 06 - JavaScript</a>
+    </li>   
+</ul>
+
 ## Exercícios
 <ul>
     <li>
@@ -60,20 +82,7 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
     </li>   
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/ProjetoMyComponents/" target="_blank">Projeto My Components</a>
-    </li>   
-    <li>
-        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio01/desafio01.html" target="_blank">Desafio 01</a>
-    </li>    
-    <li>
-        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio02" target="_blank">Desafio 02 - Rainhas Africanas</a>
-    </li>   
-    <li>
-        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio03" target="_blank">Desafio 03 - Frutas Vermelhas</a>
-    </li>   
-    <li>
-        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio04" target="_blank">Desafio 04 - Responsividade</a>
-    </li>   
-    <li>
-        <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/desafioGil/desafio05" target="_blank">Desafio 05 - Pantera Negra</a>
-    </li>   
+    </li>
 </ul>
+
+
