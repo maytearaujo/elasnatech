@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <title>&#9829; Elas na Tech 2023 &#9829;</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo fonte">Logo</div>
+        <nav class="fonte">
+            <ul>
+                <li>Menu 01</li>
+                <li>Menu 02</li>
+                <li>Menu 03</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="div01" class="content">        
+                        <h2>DOM Document Object Model</h2>
+                    <input type="number" name="txt01" id="txt01" class="txt">
+                    <input type="number" name="txt02" id="txt02" class="txt">
+                    
+                    <input type="button" value="+" id="btnSomar" class="txt">
+                    <input type="button" value="-" id="btnSubtrair" class="txt">
+                    <input type="button" value="*" id="btnMultiplicar" class="txt">
+                    <input type="button" value="/" id="btnDividir" class="txt">
+                    <input type="button" value="Limpar" id="btnLimpar" class="txt">
+
+                    <div id="resultado">Resultado</div>
+                    <h3>:: &#9829; Elas na Tech 2023 &#9829;::</h3>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        By Maytê Araújo
+    </footer>
+
+    <script>
+        var btnSomar = document.getElementById('btnSomar');
+        var btnSubtrair = document.getElementById('btnSubtrair');
+        var btnMultiplicar = document.getElementById('btnMultiplicar');
+        var btnDividir = document.getElementById('btnDividir');
+        var btnLimpar = document.getElementById('btnLimpar');
+         
+        btnSomar.addEventListener('click', somar);
+        btnSubtrair.addEventListener('click', subtrair);
+        btnMultiplicar.addEventListener('click', multiplicar);
+        btnDividir.addEventListener('click', dividir);
+        btnLimpar.addEventListener('click', limpar);
+
+
+
+        function somar(){
+            var n1 = document.getElementById('txt01');
+            var n2 = document.getElementById('txt02');
+            var result =document.getElementById('resultado');
+
+            var num1 = parseFloat(n1.value);
+            var num2 = parseFloat(n2.value);
+
+            var resultado = num1 + num2;
+
+            result.innerText = 'A Soma é: ' + resultado;
+        }
+        
+        function subtrair(){
+            var n1 = document.getElementById('txt01');
+            var n2 = document.getElementById('txt02');
+            var result =document.getElementById('resultado');
+
+            var num1 = parseFloat(n1.value);
+            var num2 = parseFloat(n2.value);
+
+            var resultado = num1 - num2;
+
+            result.innerText = 'A Subtração é: ' + resultado;
+        }
+
+        function multiplicar(){
+            var n1 = document.getElementById('txt01');
+            var n2 = document.getElementById('txt02');
+            var result =document.getElementById('resultado');
+
+            var num1 = parseFloat(n1.value);
+            var num2 = parseFloat(n2.value);
+
+            var resultado = num1 * num2;
+
+            result.innerText = 'A Multiplicação é: ' + resultado;
+        }
+
+        function dividir(){
+            var n1 = document.getElementById('txt01');
+            var n2 = document.getElementById('txt02');
+            var result =document.getElementById('resultado');
+
+            var num1 = parseFloat(n1.value);
+            var num2 = parseFloat(n2.value);
+
+            var resultado = num1 / num2;
+
+            result.innerText = 'A Divisão é: ' + resultado;
+        }
+
+        function limpar(){
+            var n1 = document.getElementById('txt01');
+            var n2 = document.getElementById('txt02');
+            var result =document.getElementById('resultado');
+            
+            n2.value='';
+            n2.value='';
+            result.innerText = 'Resultado';
+        }
+
+
+    </script>
+</body>
+
+</html>

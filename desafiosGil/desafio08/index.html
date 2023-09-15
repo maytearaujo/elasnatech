@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/baby_galaxy_groot_guardians_marvel_movie_icon_183141.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>&#9829; Elas na Tech 2023 &#9829;</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/clipart2824255.png" alt="logo" class="header_logo">
+
+        <span id="hamburguer" class="material-symbols-rounded">
+            menu
+        </span>
+
+        <nav id="itens_menu" class="header_nav">
+            <ul>
+                <li><a href="">Menu 01</a></li>
+                <li><a href="">Menu 02</a></li>
+                <li><a href="">Menu 03</a></li>
+                <li><a href="">Menu 04</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="fundo"></section>
+    </main>
+
+    <footer>
+        <div class="logos_footer">
+            <div>
+                <a href="">
+                    <img src="images/facebook.png" alt="" class="tamanho">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/linkedin.png" alt="" class="tamanho">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/instagram.png" alt="" class="tamanho">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/tiktok.png" alt="" class="tamanho">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/github.png" alt="" class="tamanho">
+                </a>
+            </div>
+            <p class="texto_footer">&#9829; Elas Na Tech &#9829; by Maytê Araújo </p>
+        </div>
+
+    </footer>
+
+    <script>
+        var hamburguer = document.getElementById('hamburguer');
+        var itens_menu = document.getElementById('itens_menu');
+
+        hamburguer.addEventListener('click', aparecer);
+
+        function aparecer() {
+            if (itens_menu.style.display == 'block') {
+                itens_menu.classList.remove('show');
+            } else {
+                itens_menu.classList.toggle('show');
+            }
+        }
+    </script>
+</body>
+
+</html>

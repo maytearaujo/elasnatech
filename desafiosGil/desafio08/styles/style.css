@@ -1,0 +1,147 @@
+:root{
+    --color-background:#0d0d0d;
+    --color-font: #fff;
+    --color: #5fb07a;
+}
+
+html {
+    font-family: roboto, sans-serif;
+
+}
+
+
+
+.header {
+    text-align: center;
+    margin: auto;
+    background-color: var(--color-background);
+}
+
+.header_logo{
+    width: 10em;
+    height: auto;
+}
+
+#hamburguer {
+    background-color: var(--color-background);
+    color: var(--color);
+    display: block;
+    text-align: center;
+    padding: 3em;
+    cursor: pointer;
+    font-size: 3em;
+}
+
+.header_nav{
+    background-color: var(--color-background);
+    display: none;
+}
+
+.header_nav.show{
+    display: block;
+}
+
+ul {
+    margin: 0;
+}
+
+.header_nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 1.3em;
+}    
+
+.header_nav a {
+    color: var(--color);
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+} 
+
+.header_nav a:hover {
+    background-color: color-mix(in srgb, --color #fff 50%);
+    color: var(--color-background);
+}
+
+.fundo{
+    background-image: url(/images/groot-book.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+footer{
+    /* background-color: #f2bfac; */
+    background-color: var(--color-background);
+    color: var(--color);
+    padding: 1em;
+    text-align: center;
+}
+.logos_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.tamanho{
+    width: 2.5em;
+}
+
+.texto_footer{
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: 0;
+    padding-top: .8rem;
+    color: #5fb07a;
+
+}
+
+@media screen and (min-width: 48em) {
+    #hamburguer{
+        display: none;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--color-background);
+    }
+
+    .header_logo {
+        margin-left: 2em;
+    }
+
+    .header_nav{
+        display: block;
+    }
+
+    .header_nav ul{
+        margin-right: 2em;
+        font-size: .9em;
+    }
+
+    .header li{
+        display: inline-block;
+    }
+
+    .header_nav a{
+        border-radius: 5px;
+    }
+    
+    .header_nav a:hover{
+        background-color: var(--color);
+        color: #fff;
+
+    }
+
+    .logos_footer{
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5em;
+    }
+}

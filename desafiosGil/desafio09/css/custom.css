@@ -1,0 +1,32 @@
+.topo{
+    padding: 20px 0;
+    position: relative;
+}
+
+.logo{
+    width: 100px;
+    /* height: 150px; */
+}
+
+.banner-topo {
+    background-color: #f0f0fb;
+}
+
+.banner-topo .img-destaque{
+    max-width: 300px;
+}
+
+.cor-tema{
+    color: #202a65;
+
+}
+
+.quemSomos {
+    background: #000;
+    color: #fff;
+}
+
+.rodape {
+    color: #fff;
+    background: #000;
+}

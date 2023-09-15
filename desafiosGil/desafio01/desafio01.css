@@ -1,0 +1,39 @@
+body{
+    background-color: #d3c6df;
+    color: #8541C4;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
+.fundo{
+    background-color: #e691df;
+}
+.margin{
+    margin: 80px 80px 80px 80px;
+}
+
+.padding{
+    padding: 80px 80px 80px 80px;;
+}
+
+.border{
+    border: 20px solid #7922ca;
+}
+
+.titulo{
+    background-color: #8541C4;
+    color:white;
+}
+
+
+
+.pagina{
+    text-align: center;
+    font-weight: normal;
+}

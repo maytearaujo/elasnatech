@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+
+    <title>&#9829; Elas na Tech 2023 &#9829;</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo fonte">Logo</div>
+        <nav class="fonte">
+            <ul>
+                <li>Menu 01</li>
+                <li>Menu 02</li>
+                <li>Menu 03</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>&#9829; Elas na Tech 2023 &#9829;</title>
+
+                <div id="calculator">
+                    <button>AC</button>
+                    <button>%</button>
+                </div>
+
+                <h2>DOM Document Object Model</h2>
+                <div id="div01" class="content">
+                    <h3>:: Elas na Tech 2023 ::</h3>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        By Maytê Araújo
+    </footer>
+
+    <script>
+        var d = document.getElementById('div01');
+
+        d.addEventListener('click',clicar);
+        d.addEventListener('mouseout',sair);
+
+        function clicar(){
+            d.innerText = "Você clicou aqui! 🖥️";
+            d.style.backgroundColor = '#AD53ED';
+        }
+        function sair(){
+            d.innerText = "Elas na Tech 2023 🚀";
+            d.style.backgroundColor = '#F76057';
+        }
+    </script>
+</body>
+
+</html>
