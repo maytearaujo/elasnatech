@@ -28,10 +28,10 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
         <a href="https://maytearaujo.github.io/elasnatech/desafioGil/desafio07/index.html" target="_blank">Desafio 07 - Calculadora</a>
     </li>   
     <li>
-        <a href="https://maytearaujo.github.io/elasnatech/desafioGil/desafio07/index.html" target="_blank">Desafio 08 - Groot</a>
+        <a href="https://maytearaujo.github.io/elasnatech/desafioGil/desafio08/index.html" target="_blank">Desafio 08 - Groot</a>
     </li>   
     <li>
-        <a href="https://maytearaujo.github.io/elasnatech/desafioGil/desafio07/index.html" target="_blank">Desafio 09 - tema?</a>
+        <a href="https://maytearaujo.github.io/elasnatech/desafioGil/desafio09/index.html" target="_blank">Desafio 09 - tema?</a>
     </li>   
 </ul>
 
@@ -39,13 +39,13 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
 <ul>
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/projeto_contatos" target="_blank">Lista de Contatos I</a>
-    </li>    
+    </li>  
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/projeto_contatos_II" target="_blank">Lista de Contatos II</a>
     </li>
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/projeto-price-cards" target="_blank">Plano de Internet</a>
-    <li>    
+    </li>    
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/CursoWebFundamentos/Formulario/login.html" target="_blank">Formulário de Login</a>
     </li>   
