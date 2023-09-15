@@ -6,6 +6,12 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
 ## Desafios [ElasNaTech]
 <ul>
     <li>
+        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio01/index.html" target="_blank">Desafio 01</a>
+    </li> 
+    <li>
+        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio01" target="_blank">Desafio 01</a>
+    </li> 
+    <li>
         <!-- <a href="https://maytearaujo.github.io/elasnatech/desafiosGil/desafio01/index.html"> -->
         <a href="https://maytearaujo.github.io/elasnatech/desafioGil/desafio01/index.html" target="_blank">Desafio 01 - O Inicio</a>
     </li>    
