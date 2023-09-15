@@ -9,8 +9,6 @@ html {
 
 }
 
-
-
 .header {
     text-align: center;
     margin: auto;
@@ -66,7 +64,7 @@ ul {
 }
 
 .fundo{
-    background-image: url(/images/groot-book.jpg);
+    background-image: url(../images/groot-book.jpg);
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
