@@ -6,7 +6,7 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
 ## Desafios [ElasNaTech]
 <ul>
     <li>
-        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio01/index.html" target="_blank">Desafio 01 - O Inicio</a>
+        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio01" target="_blank">Desafio 01 - O Inicio</a>
     </li> 
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio02" target="_blank">Desafio 02 - Rainhas Africanas</a>
@@ -15,22 +15,22 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
         <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio03" target="_blank">Desafio 03 - Frutas Vermelhas</a>
     </li> 
     <li>
-        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio04/index.html" target="_blank">Desafio 04 - Responsividade</a>
+        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio04" target="_blank">Desafio 04 - Responsividade</a>
     </li>  
     <li>
-        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio05/index.html" target="_blank">Desafio 05 - Pantera Negra</a>
+        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio05" target="_blank">Desafio 05 - Pantera Negra</a>
     </li> 
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio06" target="_blank">Desafio 06 - JavaScript</a>
     </li> 
     <li>
-        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio07/index.html" target="_blank">Desafio 07 - Calculadora</a>
+        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio07" target="_blank">Desafio 07 - Calculadora</a>
     </li> 
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio08" target="_blank">Desafio 08 - Groot</a>
     </li> 
     <li>
-        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio09" target="_blank">Desafio 09 - tema?</a>
+        <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio09" target="_blank">Desafio 09 - Cachorros</a>
     </li>    
 </ul>
 

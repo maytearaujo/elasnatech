@@ -1,0 +1,9 @@
+class Televisao():
+    # construtor (sempre usar self)
+    def __init__(self):
+        print('O objeto {} foi construido'.format(self))
+        self.marca = 'LG'
+
+
+tv = Televisao()
+print(tv.marca)

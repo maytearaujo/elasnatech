@@ -1,18 +1,12 @@
 :root{
     --color-background:#0d0d0d;
-    --color-font: #fff;
-    --color: #5fb07a;
+    --color-font: #F2F2F2;
+    --color: #0511F2;
 }
 
 html {
     font-family: roboto, sans-serif;
 
-}
-
-.estilo{
-    border: 2px solid red;
-    height: 500px;
-    background-color: rgb(237, 184, 184);
 }
 
 .header {
@@ -22,7 +16,7 @@ html {
 }
 
 .header_logo{
-    width: 10em;
+    width: 5em;
     height: auto;
 }
 
@@ -70,10 +64,32 @@ ul {
 }
 
 .fundo{
+    background-image: url(../images/cachorro-agua.jpg);
     background-size: cover;
-    background-position: right center;
+    background-position: right top;
     background-repeat: no-repeat;
     height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria{
+}
+
+.galeria a {
+    padding: 15px 32px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #d1c5c5;
+    text-decoration: none;
+    letter-spacing: .1rem;
+}
+
+.galeria a:hover {
+    background-color: #0511F2;
+    color: #F2F2F2;
 }
 
 footer{
@@ -99,7 +115,7 @@ footer{
     letter-spacing: 0.15em;
     margin: 0;
     padding-top: .8rem;
-    color: #5fb07a;
+    color: #0511F2;
 
 }
 
