@@ -71,6 +71,30 @@ ul {
     color: var(--cor-preto);
 }
 
+footer{
+    background-color: var(--cor-preto);
+    padding: 1em;
+    text-align: center;
+}
+
+.logos_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.tamanho{
+    width: 2.5em;
+}
+
+.texto_footer{
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin:0;
+    padding-top: .8rem;
+    color: var(--cor-azul-claro);
+}
 
 @media screen and (min-width:48em) {
     #hamburguer {
@@ -119,7 +143,7 @@ ul {
         margin: 1em;
     }
 
-    .conteudo {
+    .projetos {
         display: flex;
         align-items: center;
         margin: 0;
@@ -137,32 +161,39 @@ ul {
         justify-content: center;
     }
 
-    strong{
+    strong {
         color: var(--cor-azul-claro);
         font-size: 2em;
     }
 
-    figure {
+    .imagem-codigo {
         border: 1px #cccccc solid;
         padding: 4px;
         margin: auto;
-      }
-      .imagem-codigo img{
+    }
+
+    .imagem-codigo img {
         width: 22em;
-      }
-      
-      .imagem-codigo-caminho {
+    }
+
+    .imagem-codigo-caminho {
         background-color: var(--cor-azul-escuro);
         font-style: italic;
         padding: 2px;
         text-align: center;
         display: flex;
         justify-content: space-around;
-        align-items: center;        
+        align-items: center;
     }
-    
-    .imagem-codigo-caminho a{
+
+    .imagem-codigo-caminho a {
         color: var(--cor-branco);
         text-decoration: none;
-      }
+    }
+
+    .logos_footer {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5em;
+    }
 }
