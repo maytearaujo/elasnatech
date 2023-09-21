@@ -1,18 +1,17 @@
 :root{
-    --color-background:#0d0d0d;
-    --color-font: #F2F2F2;
-    --color: #0511F2;
+    --color-primary: #03658C;
+    --color-secondary: #0D0D0D;
+    --other-color: #F2F2F2;
 }
 
-html {
-    font-family: roboto, sans-serif;
-
+html{
+    font-family: sans-serif;
 }
 
-.header {
+.header{
     text-align: center;
     margin: auto;
-    background-color: var(--color-background);
+    background-color: var(--color-secondary);
 }
 
 .header_logo{
@@ -20,26 +19,27 @@ html {
     height: auto;
 }
 
-#hamburguer {
-    background-color: var(--color-background);
-    color: var(--color);
+#hamburguer{
+    background-color: var(--color-primary);
+    color: var(--other-color);
     display: block;
     text-align: center;
-    padding: 3em;
+    padding: 0.3em;
     cursor: pointer;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .header_nav{
-    background-color: var(--color-background);
+    background-color: var(--color-secondary);
     display: none;
 }
 
-.header_nav.show{
+.header_nav.show {
     display: block;
 }
 
-ul {
+
+ul{
     margin: 0;
 }
 
@@ -48,57 +48,101 @@ ul {
     padding: 0;
     text-transform: uppercase;
     letter-spacing: .2em;
-    font-size: 1.3em;
-}    
+    font-size: .8em;
+}
 
-.header_nav a {
-    color: var(--color);
+.header_nav a{
+    color: var(--other-color);
     text-decoration: none;
     display: block;
     padding: 1em;
-} 
-
-.header_nav a:hover {
-    background-color: color-mix(in srgb, --color #fff 50%);
-    color: var(--color-background);
 }
 
-.fundo{
+.header_nav a:hover{
+    background-color: color-mix(in srgb, var(--color-primary), var(--other-color) 50%);
+    color: var(--color-secondary);
+}
+
+@media screen and (min-width: 48em){/*768px maior que*/
+
+    #hamburguer{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--color-secondary);
+    }
+
+
+    .header_logo{
+        margin-left: 2em;
+    }
+
+
+    .header_nav{
+        display: block;
+    }
+
+
+    .header_nav ul{
+        margin-right: 2em;
+        font-size: .9em;
+    }
+
+
+    .header_nav li{
+        display: inline-block;
+    }
+
+
+    .header_nav a{
+        border-radius: 5px;
+    }
+
+
+    .header_nav a:hover{
+        background-color: var(--color-primary);
+        color: var(--other-color);
+    }
+}
+
+.fundo_main{
     background-image: url(../images/cachorro-agua.jpg);
     background-size: cover;
-    background-position: right top;
+    background-position: top center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.galeria{
-}
-
-.galeria a {
-    padding: 15px 32px;
-    font-size: 1.2rem;
-    text-align: center;
-    border-radius: 6px;
-    background-color: #d1c5c5;
+div.galeria a{
     text-decoration: none;
-    letter-spacing: .1rem;
+    color: var(--color-secondary);
+    display: inline-block;
+    background-color: var(--color-primary);
+    padding: 1em 1.8em;
+    font-size: 1.5em;
+    border-radius: 8px;
+    letter-spacing: .1em;
+    font-family: 'Courgette', cursive;
 }
 
-.galeria a:hover {
-    background-color: #0511F2;
-    color: #F2F2F2;
+div.galeria a:hover{
+    background-color: var(--color-primary);
+    color: var(--other-color);
 }
 
 footer{
-    /* background-color: #f2bfac; */
-    background-color: var(--color-background);
-    color: var(--color);
+    background-color: var(--color-secondary);
     padding: 1em;
     text-align: center;
 }
+
 .logos_footer{
     display: flex;
     flex-direction: column;
@@ -110,57 +154,20 @@ footer{
 }
 
 .texto_footer{
-    font-size: .8em;
+    font-size: 0.6em;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    margin: 0;
+    margin:0;
     padding-top: .8rem;
-    color: #0511F2;
-
+    color: var(--color-primary);
 }
 
-@media screen and (min-width: 48em) {
-    #hamburguer{
-        display: none;
-    }
-    
-    .header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: var(--color-background);
-    }
-
-    .header_logo {
-        margin-left: 2em;
-    }
-
-    .header_nav{
-        display: block;
-    }
-
-    .header_nav ul{
-        margin-right: 2em;
-        font-size: .9em;
-    }
-
-    .header li{
-        display: inline-block;
-    }
-
-    .header_nav a{
-        border-radius: 5px;
-    }
-    
-    .header_nav a:hover{
-        background-color: var(--color);
-        color: #fff;
-
-    }
+@media screen and (min-width: 48em){/*768px maior que */
 
     .logos_footer{
         flex-direction: row;
         justify-content: center;
-        gap: 1.5em;
+        gap:1.5em;
     }
+
 }

@@ -25,6 +25,10 @@ h1{
     width: fit-content;
 }
 
+.card img{
+    width: 300px;
+}
+
 .card p {
     text-align: center;
     color: #fff;
