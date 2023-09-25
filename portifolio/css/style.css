@@ -6,14 +6,12 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Montserrat', 'Jost', sans-serif;
 }
 
-
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: left;
+    margin: auto;
     background-color: var(--cor-preto);
 
     position: fixed;
@@ -29,7 +27,7 @@ html {
 
 #hamburguer {
     background-color: var(--cor-azul-claro);
-    color: var(--cor-branco);
+    color: var(--cor-preto);
     display: block;
     text-align: center;
     padding: 0.3em;
@@ -81,7 +79,7 @@ section {
 .container {
     text-align: center;
     justify-content: center;
-    margin-top: 6em;
+    margin-top: 8em;
 }
 
 /* Banner */
@@ -114,6 +112,7 @@ h2 {
 /* Imagens dos títulos */
 .conteudo-img {
     width: 4em;
+    margin: 1em;
 }
 
 /* linha pontilhada abaixo dos titulos */
@@ -142,18 +141,23 @@ h2 {
         display: none;
     }
 
+
+
     .header {
+        /* text-align: center; */
+        /* margin: auto; */
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: var(--cor-preto);
-
-        /* display: none; */
+    
+        /* fixar menu no topo */
         position: fixed;
         top: 0;
         z-index: 1;
         width: 100%;
     }
+    
 
 
     .header_logo {
@@ -197,28 +201,28 @@ h2 {
 }
 
 
+.tamanho{
+    width: 2.5em;
+}
 
-footer {
+footer{
     background-color: var(--cor-preto);
-    padding: 1em;
+    color: var(--cor-branco);
+    padding: 3em 1em 12em 1em;
     text-align: center;
 }
 
-.logos_footer {
+.logos_footer{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.tamanho {
-    width: 2.5em;
-}
-
-.texto_footer {
+.texto_footer{
     font-size: 0.6em;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    margin: 0;
+    margin:0;
     padding-top: .8rem;
-    color: var(--cor-azul-claro);
+    color: var(--color-primary);
 }
