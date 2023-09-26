@@ -79,7 +79,7 @@ section {
 .container {
     text-align: center;
     justify-content: center;
-    margin-top: 8em;
+    margin-top: 5em;
 }
 
 /* Banner */
@@ -205,24 +205,88 @@ h2 {
     width: 2.5em;
 }
 
-footer{
+.trailer_video{
+    display: none;
+}
+
+.footer{
     background-color: var(--cor-preto);
     color: var(--cor-branco);
     padding: 3em 1em 12em 1em;
     text-align: center;
+    border-top: 12em;
+}
+
+.conteudo_footer{
+    display: flex;
+    /* gap: 1rem; */
+    align-items: center;
+    justify-content: space-around;
 }
 
 .logos_footer{
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    justify-content: space-between;
+    /* gap: 1em; */
+    /* border: solid green */
 }
+
+.formContato{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: solid red; */
+    /* width: 80vh; */
+}
+
+form input, textarea{
+    outline: unset;
+    padding: 10px;
+    width: 30vw;
+    height: 2em;
+    border: .1em solid cornflowerblue;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+form input:focus, textarea:focus{
+    background-color: #ccc;
+}
+
+form textarea{
+    height: 6em;
+}
+
+.formContato div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 1em;
+}
+
+.formContato div label{
+    display: flex;
+    margin-left: .5em;
+}
+
+.formContato label{
+    margin-right: 2em;
+}
+/* 
+display: column;
+telas menores
+.formCampo{
+    flex-direction: column;
+} */
 
 .texto_footer{
     font-size: 0.6em;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     margin:0;
-    padding-top: .8rem;
+    padding-top: 4.5rem;
     color: var(--color-primary);
+    display: block;
 }
