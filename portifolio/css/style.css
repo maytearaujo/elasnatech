@@ -109,6 +109,11 @@ h2 {
     color: pink;
 }
 
+.conteudo p, ul, .card-text{
+    text-align: left;
+    /* text-indent: 3em; */
+}
+
 /* Imagens dos títulos */
 .conteudo-img {
     width: 4em;
@@ -203,6 +208,11 @@ h2 {
 
 .tamanho{
     width: 2.5em;
+}
+
+.card-body{
+    width: ;
+    height: ;
 }
 
 .trailer_video{
