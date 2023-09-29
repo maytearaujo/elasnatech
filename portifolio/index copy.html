@@ -20,6 +20,130 @@
 
     <link rel="short cut icon" href="assets/notebook.png">
     <title>Portifólio Maytê Araújo</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .topNav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            background-color: #000000;
+        }
+
+        .ham {
+            position: relative;
+            width: 2rem;
+            height: 2rem;
+            margin-left: 0.5rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
+
+        .menuX {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            width: 2rem;
+            height: 2rem;
+            margin-left: 0.5rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
+
+        .sideNav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            z-index: 101;
+            background: black;
+            width: 300px;
+            height: 100vh;
+            overflow: hidden;
+            color: white;
+            /* hide the menu above the screen by default */
+            transform: translateX(-100%);
+            transition: transform 0.2s ease;
+        }
+
+        .showNav {
+            transform: translateX(0);
+        }
+
+        .sideNav ul {
+            width: 100%;
+            height: 100%;
+            list-style: none;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            padding-top: 5rem;
+        }
+
+        .sideNav ul li a {
+            display: block;
+            color: white;
+            padding-bottom: 10px;
+            margin-top: 1rem;
+            border-bottom: 2px solid black;
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2rem;
+        }
+
+        .sideNav ul li a:hover,
+        .sideNav ul li a:focus {
+            border-bottom: 2px solid white;
+        }
+
+        .overlay {
+            position: fixed;
+            display: none;
+            z-index: 100;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            height: 100vh;
+        }
+
+        .showOverlay {
+            display: block;
+        }
+
+        section {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            font-size: xx-large;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section:nth-child(even) {
+            background-color: rgb(245, 245, 245);
+        }
+    </style>
 </head>
 
 <body>
@@ -29,22 +153,27 @@
             <img src="assets/logo-transparente.png" alt="Logo Maytê&#8217s" class="header_logo">
         </a>
 
-        <span id="hamburguer" class="material-symbols-rounded">
+        <span id="hamburguer" class="material-symbols-rounded" data-bs-toggle="collapse">
             menu
         </span>
 
-        <nav id="itens_menu" class="header_nav">
-            <ul>                
-                <li><a href="#sobre" id="" class="">Sobre</a></li>
-                <li><a href="#inicio" id="">Início</a></li>
-                <li><a href="#desafios" id="">Desafios</a></li>
-                <li><a href="#conquistas" id="">Conquistas</a></li>
-                <li><a href="#aprendizados" id="">Aprendizados</a></li>
-                <li><a href="#projetos" id="">Projetos</a></li>
-                <li><a href="#depoimento" id="">Depoimento</a></li>
-                <li><a href="#contatos" id="">Contatos</a></li>
+        <div class="overlay"></div>
+
+        <nav class="header_nav">
+            <ul>
+                <li><a class="menuLink" href="#sobre" id="menuSobre">Sobre</a></li>
+                <li><a class="menuLink" href="#inicio">Início</a></li>
+                <li><a class="menuLink" href="#desafios">Desafios</a></li>
+                <li><a class="menuLink" href="#conquistas">Conquistas</a></li>
+                <li><a class="menuLink" href="#aprendizados">Aprendizados</a></li>
+                <li><a class="menuLink" href="#projetos">Projetos</a></li>
+                <li><a class="menuLink" href="#depoimento">Depoimento</a></li>
+                <li><a class="menuLink" href="#contatos">Contatos</a></li>
             </ul>
         </nav>
+
+
+
     </header>
 
 
@@ -58,12 +187,12 @@
                 </h2>
 
                 <h6>Desenvolvedora de Software</h6>
-                <a href="assets/Mayte Araújo.pdf" download="cv Maytê Araújo.pdf" class="btn btn-lg btn-primary">Acesse
+                <a href="assets/Mayte Araújo.pdf" download="cb Maytê Araújo.pdf" class="btn btn-lg btn-primary">Acesse
                     meu Curriculo</a>
             </div>
         </section>
 
-        <section id="sobre">
+        <section id="sobre" class="collapse">
             <div class="container">
                 <h3 class="titulo">Sobre</h3>
                 <span class="line"></span>
@@ -507,28 +636,73 @@
         </div>
         </div>
     </footer>
-    
-        <script>
+
+    <script>
             var hamburguer = document.getElementById('hamburguer');
             var itens_menu = document.getElementById('itens_menu');
-            // var menuItem = document.getElementById('menuItem');
+            var menuSobre = document.getElementById('menuSobre');
 
             hamburguer.addEventListener('click', aparecer);
-            itens_menu.addEventListener('click', aparecer);
-            // menuItem.addEventListener('click', aparecer);
 
             function aparecer() {
                 if (itens_menu.style.display == 'block') {
                     itens_menu.classList.remove('show');
-                    // menuItem.classList.remove('show');
-
                 } else {
                     itens_menu.classList.toggle('show');
-                    // menuItem.classList.toggle('show');
+                }
+
+                if(menuSobre.style.display == 'block'){
+                    menuSobre.classList.remove('show');
+                }else{
+                    menuSobre.classList.toggle('show')
                 }
             }
         </script>
 
+    <!-- <script>
+        const $menu = document.querySelector('.menu');
+
+        const $btnMenu1 = document.querySelector('.btnMenu1');
+        const $btnMenu2 = document.querySelector('.btnMenu2');
+        const $btnMenu3 = document.querySelector('.btnMenu3');
+        const $btnMenu4 = document.querySelector('.btnMenu4');
+
+        const $btnMenu_Open = document.querySelector('.btnMenu_Open')
+
+        $btnMenu1.addEventListener('click', function () {
+            $menu.classList.remove('in')
+        })
+        $btnMenu2.addEventListener('click', function () {
+            $menu.classList.remove('in')
+        })
+        $btnMenu3.addEventListener('click', function () {
+            $menu.classList.remove('in')
+        })
+        $btnMenu4.addEventListener('click', function () {
+            $menu.classList.remove('in')
+        })
+    </script> -->
+
+    <script>
+        const sideNav = document.querySelector(".sideNav")
+        const overlay = document.querySelector(".overlay")
+        const ham = document.querySelector(".ham")
+        const menuX = document.querySelector(".menuX")
+        const menuItems = document.querySelectorAll(".menuLink")
+
+        menuItems.forEach(menuItem => {
+            menuItem.addEventListener("click", toggleHamburger)
+        })
+
+        ham.addEventListener("click", toggleHamburger)
+        menuX.addEventListener("click", toggleHamburger)
+        overlay.addEventListener("click", toggleHamburger)
+
+        function toggleHamburger() {
+            overlay.classList.toggle("showOverlay")
+            sideNav.classList.toggle("showNav")
+        }
+    </script>
 </body>
 
 </html>

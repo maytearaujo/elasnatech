@@ -34,17 +34,73 @@
         </span>
 
         <nav id="itens_menu" class="header_nav">
-            <ul>                
-                <li><a href="#sobre" id="" class="">Sobre</a></li>
-                <li><a href="#inicio" id="">Início</a></li>
-                <li><a href="#desafios" id="">Desafios</a></li>
-                <li><a href="#conquistas" id="">Conquistas</a></li>
-                <li><a href="#aprendizados" id="">Aprendizados</a></li>
-                <li><a href="#projetos" id="">Projetos</a></li>
-                <li><a href="#depoimento" id="">Depoimento</a></li>
-                <li><a href="#contatos" id="">Contatos</a></li>
+            <ul>
+                <li><a href="#sobre" class="menuItem">Sobre</a></li>
+                <li><a href="#inicio" class="menuItem">Início</a></li>
+                <li><a href="#desafios" class="menuItem">Desafios</a></li>
+                <li><a href="#conquistas" class="menuItem">Conquistas</a></li>
+                <li><a href="#aprendizados" class="menuItem">Aprendizados</a></li>
+                <li><a href="#projetos" class="menuItem">Projetos</a></li>
+                <li><a href="#depoimento" class="menuItem">Depoimento</a></li>
+                <li><a href="#contatos" class="menuItem">Contatos</a></li>
             </ul>
         </nav>
+
+
+
+<!-- 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="#home">
+                    <img src="assets/logo-transparente.png" alt="Logo Maytê&#8217s" class="header_logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#desafios">Desafios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#conquistas">Conquistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aprendizados">Aprendizados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#depoimento">Depoimento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contatos</a>
+                        </li>
+                        <li class="nav-item btnMenu1">
+                            <a class="nav-link" href="#btnMenu1">btnMenu1</a>
+                            <a class="btn nav-link" data-toggle="collapse" href="#contato" role="button"
+                                aria-expanded="false" aria-controls="contato">
+                                Link
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+
+
     </header>
 
 
@@ -507,28 +563,78 @@
         </div>
         </div>
     </footer>
-    
-        <script>
-            var hamburguer = document.getElementById('hamburguer');
-            var itens_menu = document.getElementById('itens_menu');
-            // var menuItem = document.getElementById('menuItem');
 
-            hamburguer.addEventListener('click', aparecer);
-            itens_menu.addEventListener('click', aparecer);
-            // menuItem.addEventListener('click', aparecer);
+    <script>
+        // var hamburguer = document.getElementById('hamburguer');
+        // var itens_menu = document.getElementById('itens_menu');
 
-            function aparecer() {
-                if (itens_menu.style.display == 'block') {
-                    itens_menu.classList.remove('show');
-                    // menuItem.classList.remove('show');
+        const hamburguer = document.querySelector(".hamburguer")
+        const itens_menu = document.querySelector(".itens_menu")
+        
+        menuItems.forEach(menuItem => {
+            menuItem.addEventListener("click", aparecer)
+        })
 
-                } else {
-                    itens_menu.classList.toggle('show');
-                    // menuItem.classList.toggle('show');
-                }
-            }
-        </script>
+        hamburguer.addEventListener('click', aparecer);
 
+        function aparecer() {
+            overlay.classList.toggle("showOverlay")
+            sideNav.classList.toggle("showNav")
+        }
+        // function aparecer() {
+        //     if (itens_menu.style.display == 'block') {
+        //         itens_menu.classList.remove('show');
+        //     } else {
+        //         itens_menu.classList.toggle('show');
+        //     }
+        // }
+    </script>
+
+
+    <!-- <script>
+        const sideNav = document.querySelector(".sideNav")
+        const overlay = document.querySelector(".overlay")
+        const ham = document.querySelector(".ham")
+        const menuX = document.querySelector(".menuX")
+        const menuItems = document.querySelectorAll(".menuLink")
+
+        menuItems.forEach(menuItem => {
+            menuItem.addEventListener("click", toggleHamburger)
+        })
+
+        ham.addEventListener("click", toggleHamburger)
+        menuX.addEventListener("click", toggleHamburger)
+        overlay.addEventListener("click", toggleHamburger)
+
+        function toggleHamburger() {
+            overlay.classList.toggle("showOverlay")
+            sideNav.classList.toggle("showNav")
+        }
+    </script> -->
+
+    <!-- <script>
+        const $menu = document.querySelector('.menu');
+
+        const $btnMenu1 = document.querySelector('.btnMenu1');
+        const $btnMenu2 = document.querySelector('.btnMenu2');
+        const $btnMenu3 = document.querySelector('.btnMenu3');
+        const $btnMenu4 = document.querySelector('.btnMenu4');
+
+        const $btnMenu_Open = document.querySelector('.btnMenu_Open')
+
+        $btnMenu1.addEventListener('click', function () {
+            $menu.classList.remove('in')
+        })
+        $btnMenu2.addEventListener('click', function () {
+            $menu.classList.remove('in')
+        })
+        $btnMenu3.addEventListener('click', function () {
+            $menu.classList.remove('in')
+        })
+        $btnMenu4.addEventListener('click', function () {
+            $menu.classList.remove('in')
+        })
+    </script> -->
 </body>
 
 </html>
