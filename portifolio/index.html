@@ -18,23 +18,23 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <link rel="short cut icon" href="assets/notebook.png">
+    <link rel="shortcut icon" href="assets/butterfly.png" type="image/x-icon">
     <title>Portifólio Maytê Araújo</title>
 </head>
 
 <body>
 
     <header class="header">
-        <a href="#home">
-            <img src="assets/logo-transparente.png" alt="Logo Maytê&#8217s" class="header_logo">
-        </a>
+
+        <div class="header-logo"><a href="#home">&#60; Maytê Araujo &#47; &#62;</a></div>
+
 
         <span id="hamburguer" class="material-symbols-rounded">
             menu
         </span>
 
         <nav id="itens_menu" class="header_nav">
-            <ul>                
+            <ul>
                 <li><a href="#sobre" id="" class="">Sobre</a></li>
                 <li><a href="#inicio" id="">Início</a></li>
                 <li><a href="#desafios" id="">Desafios</a></li>
@@ -51,13 +51,11 @@
     <main>
         <section class="banner" id="home">
             <div>
-                <h1>Hello World, eu sou</h1>
-                <h2>
-                    Maytê Araújo
-                    <span class="ponto">.</span>
-                </h2>
 
-                <h6>Desenvolvedora de Software</h6>
+                <p>Olá, o meu nome é</p>
+
+                <h1>Maytê Araújo<span class="ponto">.</span></h1>
+                <h2>Desenvolvedora de Software</h2>
                 <a href="assets/Mayte Araújo.pdf" download="cv Maytê Araújo.pdf" class="btn btn-lg btn-primary">Acesse
                     meu Curriculo</a>
             </div>
@@ -507,27 +505,27 @@
         </div>
         </div>
     </footer>
-    
-        <script>
-            var hamburguer = document.getElementById('hamburguer');
-            var itens_menu = document.getElementById('itens_menu');
-            // var menuItem = document.getElementById('menuItem');
 
-            hamburguer.addEventListener('click', aparecer);
-            itens_menu.addEventListener('click', aparecer);
-            // menuItem.addEventListener('click', aparecer);
+    <script>
+        var hamburguer = document.getElementById('hamburguer');
+        var itens_menu = document.getElementById('itens_menu');
+        // var menuItem = document.getElementById('menuItem');
 
-            function aparecer() {
-                if (itens_menu.style.display == 'block') {
-                    itens_menu.classList.remove('show');
-                    // menuItem.classList.remove('show');
+        hamburguer.addEventListener('click', aparecer);
+        itens_menu.addEventListener('click', aparecer);
+        // menuItem.addEventListener('click', aparecer);
 
-                } else {
-                    itens_menu.classList.toggle('show');
-                    // menuItem.classList.toggle('show');
-                }
+        function aparecer() {
+            if (itens_menu.style.display == 'block') {
+                itens_menu.classList.remove('show');
+                // menuItem.classList.remove('show');
+
+            } else {
+                itens_menu.classList.toggle('show');
+                // menuItem.classList.toggle('show');
             }
-        </script>
+        }
+    </script>
 
 </body>
 
