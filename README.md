@@ -6,7 +6,7 @@ ElasNaTech é um Programa de formação em programação web para mulheres reali
 ## Desafios [ElasNaTech]
 <ul>
     <li>
-        <a href="https://maytearaujo.github.io/elasnatech/portifolio" target="_blank">Portifólio</a>
+        <a href="https://maytearaujo.github.io/portifolio-elas-na-tech" target="_blank">Portifólio</a>
     </li> 
     <li>
         <a href="https://maytearaujo.github.io/elasnatech/desafiosElasNaTech/desafio09" target="_blank">Desafio 09 - Cachorros</a>
